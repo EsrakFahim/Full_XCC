@@ -20,6 +20,7 @@ const allowedOrigins = [
       "https://xcc-dashboard-v11.vercel.app",
       "http://localhost:3036",
       "http://localhost:5173",
+      "https://full-xcc.onrender.com"
 ];
 
 console.log("Allowed origins:", allowedOrigins);
