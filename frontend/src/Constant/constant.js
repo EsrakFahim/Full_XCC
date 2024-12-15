@@ -1,1 +1,3 @@
-export const baseApiURL = process.env.NODE_ENV === 'development' ? process.env.REACT_APP_PRODUCTION_SERVER_API : process.envREACT_APP_PRODUCTION_SERVER_API_NEW;
+export const baseApiURL = process.env.NODE_ENV === 'development'
+      ? process.env.REACT_APP_PRODUCTION_SERVER_API
+      : process.env.REACT_APP_PRODUCTION_SERVER_API_NEW;
