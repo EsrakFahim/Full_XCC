@@ -6,19 +6,23 @@ import { ToastContainer } from 'react-toastify';
 import { routes } from '../router'
 import 'react-toastify/dist/ReactToastify.css';
 import '../../sass/style.scss';
+import { baseApiURL } from '../../Constant/constant';
 
 
 
 const App = () => {
 
-return (
-      <HelmetProvider>
-            <div className="App" id="scrool">
-                  <RouterProvider router={routes} />
-                  <ToastContainer />
-            </div>
-      </HelmetProvider>
-);
+      console.log(baseApiURL)
+
+
+      return (
+            <HelmetProvider>
+                  <div className="App" id="scrool">
+                        <RouterProvider router={routes} />
+                        <ToastContainer />
+                  </div>
+            </HelmetProvider>
+      );
 }
 
 export default App;

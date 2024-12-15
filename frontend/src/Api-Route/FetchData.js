@@ -4,7 +4,7 @@ import { baseApiURL } from "../Constant/constant";
 
 const useFetchDataFromDB = (collection) => {
 
-      // console.log(process.env.REACT_APP_PRODUCTION_SERVER_API)
+      console.log(baseApiURL)
       const { data, isError, isLoading } = useQuery(
             ["data", collection],
             async () => {
