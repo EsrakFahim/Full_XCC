@@ -1,11 +1,17 @@
 import dotenv from "dotenv";
+import express from "express";
 import { connectDB } from "./db/index.js";
 import app from "./app.js";
+import path from "path";
+import mongoose from "mongoose";
 
 // Load environment variables
 dotenv.config({
       path: "./env",
 });
+
+// Set static folder
+const __dirname = path.resolve();
 
 // Initialize server variable
 let server;
@@ -19,6 +25,15 @@ const startServer = async () => {
             app.get("/", (req, res) => {
                   res.send("Welcome to the API");
             });
+
+            // Serve static files in production
+            if (process.env.NODE_ENV === "production") {
+                  app.use(express.static(path.join(__dirname, "../frontend/build"))); // Adjusted for React build folder
+
+                  app.get("*", (req, res) => {
+                        res.sendFile(path.join(__dirname, "../frontend", "build", "index.html")); // React's index.html
+                  });
+            }
 
             // Start the server
             const PORT = process.env.PORT || 5050;
