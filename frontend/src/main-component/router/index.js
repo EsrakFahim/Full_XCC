@@ -19,6 +19,17 @@ import BlogDetailsLeftSiide from '../BlogDetailsLeftSiide'
 import PricingPage from '../PricingPage'
 import TestimonialPage from '../TestimonialPage'
 import ContactPage from '../ContactPage'
+import Dashboard from "../../Admin/pages/Dashboard";
+import HomeSettings from "../../Admin/pages/HomeSettings";
+import { AllProjects } from "../../Admin/pages/AllProjects";
+import CreateNewProject from "../../Admin/pages/CreateNewProject";
+import EditProject from "../../Admin/pages/EditProject";
+import AddTeamMember from "../../Admin/pages/AddTeamMember";
+import { AllServices } from "../../Admin/pages/AllServices";
+import CreateService from "../../Admin/pages/CreateService";
+import EditService from "../../Admin/pages/EditService";
+import AboutPageSettings from "../../Admin/pages/AboutPageSettings";
+import EditAbout from "../../Admin/pages/EditAbout";
 // import ShopPage from '../ShopPage'
 // import OrderRecived from '../OrderRecived';
 // import ProductSinglePage from '../ProductSinglePage';
@@ -189,16 +200,58 @@ export const routes = createBrowserRouter([
   },
   {
     path: '/admin',
-    element: (
-      <iframe
-        src="https://xcc-dashboard-v11.vercel.app/"
-        title="Admin Dashboard"
-        style={{
-          width: '100%',
-          height: '100vh',
-          border: 'none',
-        }}
-      />
-    )
-  }
+    element: <Dashboard />,
+    errorElement: <Error />,
+  },
+  {
+    path: '/admin/pages/home',
+    element: <HomeSettings />,
+    errorElement: <Error />,
+  },
+  {
+    path: '/admin/projects',
+    element: <AllProjects />,
+    errorElement: <Error />,
+  },
+  {
+    path: '/admin/projects/create',
+    element: <CreateNewProject />,
+    errorElement: <Error />,
+  },
+  {
+    path: '/admin//project/edit/:projectId',
+    element: <EditProject />,
+    errorElement: <Error />,
+  },
+  {
+    path: "admin/team-member/create",
+    element: <AddTeamMember />,
+    errorElement: <Error />,
+  },
+  {
+    path: "admin/services",
+    element: <AllServices />,
+    errorElement: <Error />,
+  },
+  {
+    path: "admin/services/create",
+    element: <CreateService />,
+    errorElement: <Error />,
+  },
+  {
+    path: "/admin/service/edit/:serviceId",
+    element: <EditService />,
+    errorElement: <Error />,
+  },
+  {
+    path: "/admin/about/create",
+    element: <AboutPageSettings />,
+    errorElement: <Error />,
+  },
+
+  {
+    path: "/admin/about/edit",
+    element: <EditAbout />,
+    errorElement: <Error />,
+  },
 ]);

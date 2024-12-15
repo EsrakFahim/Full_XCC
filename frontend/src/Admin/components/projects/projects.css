@@ -1,0 +1,8 @@
+.project-image-preview{
+      position: relative;
+}
+
+.project-image-preview:hover {
+      filter: grayscale(100%);
+      transition: 0.5s;
+}
