@@ -44,7 +44,7 @@ const Header2 = (props) => {
                                           </div>
                                           <div className="col-lg-2 col-md-6 col-6">
                                                 <div className="navbar-header">
-                                                      <Link onClick={ClickHandler} className="navbar-brand" to="/home">
+                                                      <Link onClick={ClickHandler} className="navbar-brand" to="/">
                                                             <img src={Logo} alt="Logo" />
                                                       </Link>
                                                 </div>
@@ -56,7 +56,7 @@ const Header2 = (props) => {
                                                       </button>
                                                       <ul className="nav navbar-nav mb-2 mb-lg-0">
                                                             <li className="menu-item-has-children">
-                                                                  <Link onClick={ClickHandler} to="/">Home</Link>
+                                                                  <Link onClick={ClickHandler} to="/home">Home</Link>
                                                             </li>
                                                             <li><Link onClick={ClickHandler} to="/about">About</Link></li>
                                                             <li><Link to="/service">Service</Link></li>

@@ -5,7 +5,7 @@ const SidebarHeader = () => {
   return (
     <div className="sidebar-header">
       <div className="logo">
-        <Link to="https://www.xavironconstructioncorp.com">
+        <Link to="/">
           <div className="logo-container">
             <img src={logo} alt="Logo" />
           </div>
