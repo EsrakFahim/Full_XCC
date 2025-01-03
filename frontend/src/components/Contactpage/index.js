@@ -24,7 +24,7 @@ const Contactpage = () => {
                                                 href="https://www.google.com/maps/search/?api=1&query=1143+43rd+street,+Brooklyn,+New+York.+11219"
                                                 target="_blank"
                                                 rel="noopener noreferrer"
-                                                style={{ color: "white", textDecoration: "none" }} // Ensures links inherit white color
+                                                style={{ color: "black", textDecoration: "none" }} // Ensures links inherit white color
                                             >
                                                 <i className="fi flaticon-location"></i> 1143, 43rd street, Brooklyn, New York. 11219
                                             </a>
@@ -44,7 +44,7 @@ const Contactpage = () => {
                                                 href="mailto:Xavironconstructioncorp@gmail.com"
                                                 target="_blank"
                                                 rel="noopener noreferrer"
-                                                style={{ color: "white", textDecoration: "none" }}
+                                                style={{ color: "black", textDecoration: "none" }}
                                             >
                                                 <i className="fi flaticon-email"></i> Xavironconstructioncorp@gmail.com
                                             </a>
@@ -64,7 +64,7 @@ const Contactpage = () => {
                                                 href="https://wa.me/16465749712"
                                                 target="_blank"
                                                 rel="noopener noreferrer"
-                                                style={{ color: "white", textDecoration: "none" }}
+                                                style={{ color: "black", textDecoration: "none" }}
                                             >
                                                 <i className="fi flaticon-telephone"></i> +1 6465749712
                                             </a>
@@ -73,7 +73,7 @@ const Contactpage = () => {
                                                 href="https://wa.me/19298881352"
                                                 target="_blank"
                                                 rel="noopener noreferrer"
-                                                style={{ color: "white", textDecoration: "none" }}
+                                                style={{ color: "black", textDecoration: "none" }}
                                             >
                                                 +1 9298881352
                                             </a>
