@@ -74,7 +74,7 @@ const ServicesTable = () => {
                 <td>
                   <div className="d-flex gap-1 flex-wrap flex-md-nowrap">
                     <Link
-                      to={`/service/edit/${service._id}`}
+                      to={`/admin/service/edit/${service._id}`}
                       className="btn btn-primary btn-sm"
                     >
                       <i className="fa-solid fa-pen"></i>

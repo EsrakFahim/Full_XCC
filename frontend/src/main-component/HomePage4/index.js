@@ -14,7 +14,6 @@ const HomePage4 = () => {
             <Fragment>
                   <MetaData
                         title="Home"
-                        image="https://www.xavironconstruction.com/images/homepage-feature.jpg"
                   />
 
                   <Hero4 />

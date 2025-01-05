@@ -219,7 +219,7 @@ export const routes = createBrowserRouter([
     errorElement: <Error />,
   },
   {
-    path: '/admin//project/edit/:projectId',
+    path: '/admin/project/edit/:projectId',
     element: <EditProject />,
     errorElement: <Error />,
   },

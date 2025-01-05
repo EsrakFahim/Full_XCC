@@ -6,6 +6,7 @@ import RelatedProject from './related';
 import Discuss from './discuss';
 import useFetchSingleData from '../../Api-Route/FetchSingleData';
 import project from '../../images/banners/banner-3.jpg'
+import MetaData from '../../components/MetaData/MetaData';
 
 
 const ProjectSinglePage = (props) => {
@@ -37,7 +38,7 @@ const ProjectSinglePage = (props) => {
 
     return (
         <Fragment>
-            <PageTitle pageTitle={title} pagesub={'Project'} background={project} />
+            <MetaData title={seo?.title} description={seo?.description} image={coverImage} />
             <div className="wpo-project-single-area section-padding">
                 <div className="container">
                     <div className="row justify-content-center">
