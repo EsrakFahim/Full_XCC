@@ -74,7 +74,7 @@ const ProjectTable = () => {
                 <td>{project.projectType}</td>
                 <td>
                   <div className="d-flex gap-1 flex-wrap flex-md-nowrap">
-                    <Link to={`/project/edit/${project._id}`} className="btn btn-primary btn-sm">
+                    <Link to={`/admin/project/edit/${project._id}`} className="btn btn-primary btn-sm">
                       <i className="fa-solid fa-pen"></i>
                     </Link>
                     <button className="btn btn-danger btn-sm" onClick={deleteHandler(project._id)}>

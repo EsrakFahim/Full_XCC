@@ -1,6 +1,7 @@
 // MetaData.js
 import React from "react";
 import { Helmet } from "react-helmet-async";
+import logo from "../../images/logo-2.svg";
 
 function MetaData({
       title = "Xaviron Construction Corp | Trusted Experts in Residential & Commercial Construction",
@@ -8,7 +9,7 @@ function MetaData({
       canonical = window.location.href,
       keywords = "construction, renovation, residential projects, commercial construction, building experts, Xaviron Construction Corp",
       robots = "index,follow",
-      image = "https://yourwebsite.com/default-image.jpg", // for social sharing
+      image = {logo}, // for social sharing
 }) {
     const titleSuffix = " | Xaviron Construction Corp";
       return (
