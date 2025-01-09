@@ -15,18 +15,27 @@ import aboutBanner from '../../images/banners/banner-2.jpg';
 
 const AboutPage = () => {
     return (
-        <Fragment>
-            <MetaData title='About Us' />
-            <PageTitle pageTitle={'About Us'} pagesub={'About'} background={aboutBanner} />
-            <About />
-            {/* <ProjectSection /> */}
-            <ProjectSectionS4 />
-            <ServiceSection />
-            <FunFact fnClass={'wpo-fun-fact-section-s2'} />
-            {/* <Pricing /> */}
-            <TeamSection />
-            <Testimonial />
-        </Fragment>
-    )
+          <Fragment>
+                <MetaData
+                      title="About Us"
+                      description="Learn about Xaviron Construction Corp, our values, expertise, and dedication to delivering exceptional residential and commercial construction projects."
+                      canonical="https://xavironconstructioncorp.com/about"
+                      keywords="About Xaviron Construction, Company History, Construction Expertise, Residential Projects, Commercial Construction, Building Experts"
+                />
+                <PageTitle
+                      pageTitle={"About Us"}
+                      pagesub={"About"}
+                      background={aboutBanner}
+                />
+                <About />
+                {/* <ProjectSection /> */}
+                <ProjectSectionS4 />
+                <ServiceSection />
+                <FunFact fnClass={"wpo-fun-fact-section-s2"} />
+                {/* <Pricing /> */}
+                <TeamSection />
+                <Testimonial />
+          </Fragment>
+    );
 };
 export default AboutPage;

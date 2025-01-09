@@ -13,7 +13,8 @@ const HomePage4 = () => {
       return (
             <Fragment>
                   <MetaData
-                        title="Home"
+                        title="Home | Xaviron Construction Corp"
+                        description="Explore our residential and commercial construction services."
                   />
 
                   <Hero4 />
