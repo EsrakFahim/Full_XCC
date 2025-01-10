@@ -39,6 +39,10 @@ const CreateServicesForm = () => {
       if (data.coverImage[0]) formData.append("coverImage", data.coverImage[0]);
       if (data.icon[0]) formData.append("icon", data.icon[0]);
 
+       for (let pair of formData.entries()) {
+             console.log(pair[0] + ": " + pair[1]);
+       }
+
       await createService(formData); // API call to submit the form data
       toast.success("Service created successfully!");
       reset(); // Reset form after submission
