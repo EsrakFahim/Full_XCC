@@ -49,7 +49,7 @@ app.use(
 const allowedOrigins = [
       "https://xcc-dashboard.vercel.app",
       "https://xavironconstructioncorp.com",
-      "http://localhost:3036",
+      "http://localhost:3000",
       "http://localhost:5173",
       "https://full-xcc.onrender.com"
 ];

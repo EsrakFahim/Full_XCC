@@ -115,3 +115,20 @@ body,
 /* modify bootstrap classes */
 
 /* datepicker calendar */
+
+.whatsapp-link {
+  display: block;
+  color: white;
+  text-decoration: none;
+  margin-bottom: 8px;
+}
+
+.whatsapp-link i {
+  margin-right: 8px;
+}
+
+.contact-numbers {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}

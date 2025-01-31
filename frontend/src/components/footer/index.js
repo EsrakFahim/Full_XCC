@@ -101,23 +101,38 @@ const Footer = (props) => {
                                                 <i className="fi flaticon-location"></i> 1143, 43rd street, Brooklyn, New York. 11219
                                             </a>
                                         </li>
-                                        <li>
+                                        <li className="contact-numbers">
                                             <a
-                                                href="https://wa.me/16465749712"
+                                                href="https://wa.me/19176059051"
                                                 target="_blank"
                                                 rel="noopener noreferrer"
-                                                style={{ color: "white", textDecoration: "none" }}
+                                                className="whatsapp-link link_white"
                                             >
-                                                <i className="fi flaticon-telephone"></i> +1 6465749712
+                                                <i className="fi flaticon-telephone"></i>+1 (917) 605-9051
                                             </a>
-                                            <br />
+                                            <a
+                                                href="https://wa.me/19174591830"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                className="whatsapp-link link_white"
+                                            >
+                                                <i className="fi flaticon-telephone"></i>+1 (917) 459-1830
+                                            </a>
                                             <a
                                                 href="https://wa.me/19298881352"
                                                 target="_blank"
                                                 rel="noopener noreferrer"
-                                                style={{ color: "white", textDecoration: "none" }}
+                                                className="whatsapp-link link_white"
                                             >
-                                                +1 9298881352
+                                                <i className="fi flaticon-telephone"></i>+1 (929) 888-1352
+                                            </a>
+                                            <a
+                                                href="https://wa.me/16465749712"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                className="whatsapp-link link_white"
+                                            >
+                                                <i className="fi flaticon-telephone"></i>+1 (646) 574-9712
                                             </a>
                                         </li>
                                         <li>

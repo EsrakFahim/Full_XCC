@@ -18,8 +18,7 @@ const allowedOrigins = [
       "https://www.xavironconstructioncorp.com",
       "https://xcc-dashboard.vercel.app",
       "https://xcc-dashboard-v11.vercel.app",
-      "http://localhost:3036",
-      "http://localhost:5173",
+      "http://localhost:3000",
       "https://full-xcc.onrender.com"
 ];
 

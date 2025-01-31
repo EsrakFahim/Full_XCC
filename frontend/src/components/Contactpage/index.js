@@ -60,23 +60,40 @@ const Contactpage = () => {
                                         </div>
                                         <div className="office-info-text">
                                             <h2>Call Now</h2>
-                                            <a
-                                                href="https://wa.me/16465749712"
-                                                target="_blank"
-                                                rel="noopener noreferrer"
-                                                style={{ color: "black", textDecoration: "none" }}
-                                            >
-                                                <i className="fi flaticon-telephone"></i> +1 6465749712
-                                            </a>
-                                            <br />
-                                            <a
-                                                href="https://wa.me/19298881352"
-                                                target="_blank"
-                                                rel="noopener noreferrer"
-                                                style={{ color: "black", textDecoration: "none" }}
-                                            >
-                                                +1 9298881352
-                                            </a>
+                                            <li className="contact-numbers">
+                                                <a
+                                                    href="https://wa.me/19176059051"
+                                                    target="_blank"
+                                                    rel="noopener noreferrer"
+                                                    className="whatsapp-link link_black"
+                                                >
+                                                    <i className="fi flaticon-telephone"></i>+1 (917) 605-9051
+                                                </a>
+                                                <a
+                                                    href="https://wa.me/19174591830"
+                                                    target="_blank"
+                                                    rel="noopener noreferrer"
+                                                    className="whatsapp-link link_black"
+                                                >
+                                                    <i className="fi flaticon-telephone"></i>+1 (917) 459-1830
+                                                </a>
+                                                <a
+                                                    href="https://wa.me/19298881352"
+                                                    target="_blank"
+                                                    rel="noopener noreferrer"
+                                                    className="whatsapp-link link_black"
+                                                >
+                                                    <i className="fi flaticon-telephone"></i>+1 (929) 888-1352
+                                                </a>
+                                                <a
+                                                    href="https://wa.me/16465749712"
+                                                    target="_blank"
+                                                    rel="noopener noreferrer"
+                                                    className="whatsapp-link link_black"
+                                                >
+                                                    <i className="fi flaticon-telephone"></i>+1 (646) 574-9712
+                                                </a>
+                                            </li>
                                         </div>
                                     </div>
                                 </div>
